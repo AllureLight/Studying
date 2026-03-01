@@ -1,4 +1,4 @@
-package STUDYING.JFrame_Java.Part_1;
+package JFrame_Java.Part_1;
 
 public class Main {
     public static void main(String[] args){

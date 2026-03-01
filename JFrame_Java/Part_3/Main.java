@@ -1,4 +1,4 @@
-package STUDYING.JFrame_Java.Part_3;
+package JFrame_Java.Part_3;
 
 import javax.swing.JFrame;
 

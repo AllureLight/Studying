@@ -1,4 +1,4 @@
-package STUDYING.JFrame_Java.Part_2;
+package JFrame_Java.Part_2;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;

@@ -1,4 +1,4 @@
-package STUDYING.JFrame_Java.Part_1;
+package JFrame_Java.Part_1;
 
 import java.awt.Color;
 import javax.swing.ImageIcon;
