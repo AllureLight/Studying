@@ -6,9 +6,9 @@ public class SimpleCalculation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double price[] = new double[2];
-        int code[] = new int[2];
-        int num[] = new int[2];
+        double[] price = new double[2];
+        int[] code = new int[2];
+        int[] num = new int[2];
 
         for(int i = 0; i < price.length; i++){
             System.out.println("Enter the part " + i + ":");
