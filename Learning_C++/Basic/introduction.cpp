@@ -26,23 +26,37 @@ int main() {
     std::cout << "Value of x in main: " << x << "\n";
     std::cout << s2;
 
+
     //CONSTANTS
     const double pi = 3.14; //const is used to declare a constant variable that cannot be changed
     std::cout << "\nValue of pi: " << pi;
 
+
     //NAMESPACE
     std::cout << "\nValue of x in first: " << firts::x; //accessing variable x from namespace first
+
 
     //TYPEDEF
     //typedef is used to create an alias for a type, it can be used to make code more readable and easier to maintain
     text_t firtname = "John"; //using typedef to declare a string variable
     //number_t age = 30; //using using to declare an integer variable
 
+
     //ARTHIMETIC OPERATORS
     // + - * / % are the basic arithmetic operators in C++
+
 
     //TYPE CONVERSION
     double example = (int) 3.14; //type casting double to int, it will truncate the decimal part and pi will be 3
     std::cout << "\nValue of example after type conversion: " << example;
+    std::cout << "\nValue of char 100: " << (char) 100;
+    int num1 = 8;
+    int num2 = 10;
+    double num3 = num1/(double) num2; //type casting num2 to double to get a more accurate result
+    std::cout << "\nValue of num3 after type conversion: " << num3;
+
+
+    //USER INPUT
+    
     return 0;
 }
