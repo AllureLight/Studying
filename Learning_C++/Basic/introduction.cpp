@@ -57,6 +57,8 @@ int main() {
 
 
     //USER INPUT
-    
+    std::string name;
+    std::cout << "\nEnter your name: ";
+    std::cin >> name; //taking input from user and storing it in variable name
     return 0;
 }
