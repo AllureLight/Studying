@@ -11,17 +11,36 @@
 std::string highestScoringWord(const std::string &str);
 
 int main() {
-    char letra;
-    std::cout << "Digite uma letra: ";
-    std::cin >> letra;
-    
-    // Mostra o valor numérico da letra
-    std::cout << "O valor ASCII de '" << letra << "' e: " << (int)letra << std::endl;
-    
+    std::string frase;
+    std::cout << "Digite uma frase: ";
+    std::getline(std::cin, frase);
+    std::cout << highestScoringWord(frase) << std::endl;
     return 0;
 }
 
 std::string highestScoringWord(const std::string &str){
-  
-  return "magic";
+    int highestScore = 0;
+    std::string highestScoringWord = "";
+
+    int score = 0;
+    std::string word = "";
+    for(char c : str){
+        if(c != ' '){
+            score += (int)c - 96;
+            word.push_back(c);
+        }
+        else{
+            if(score > highestScore){
+                highestScore = score;
+                highestScoringWord = word;
+            }
+            score = 0;
+            word = "";
+        }
+    }
+    if(score > highestScore){
+                highestScore = score;
+                highestScoringWord = word;
+    }
+    return highestScoringWord;
 }

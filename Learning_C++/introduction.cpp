@@ -99,10 +99,10 @@ int main() {
 
 
     //USEFUL STRING METHODS
-    //length() returns the length of a string
-    //Empty() returns true if the string is empty, false otherwise
-    //Clear() clears the contents of a string
-    //Append() adds a string to the end of another string
+    //[string name].length() returns the length of a string
+    //[string name].Empty() returns true if the string is empty, false otherwise
+    //[string name].Clear() clears the contents of a string
+    //[string name].Append() adds a string to the end of another string
     //[string name].at(index) returns the character at the specified index
     //[string name].insert(index, string) inserts a string at the specified index
     //[string name].find(string) returns the index of the first occurrence of a string, or std::string::npos if not found
