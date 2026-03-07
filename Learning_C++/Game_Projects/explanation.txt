@@ -1,0 +1,70 @@
+Sim, SDL ajuda bastante, mas é importante entender o que ele faz e o que ele não faz.
+SDL não é uma API gráfica completa. Ele é uma biblioteca de sistema que facilita coisas como:
+
+-criar janela
+-lidar com teclado, mouse e controle
+-áudio
+-timers
+-contexto gráfico (OpenGL/Vulkan)
+
+
+
+-->>>USAR SÓ SDL<<<--
+
+Se você usar apenas SDL, normalmente usará o renderer 2D interno dele.
+
+Exemplo de renderização:
+
+SDL_RenderCopy(renderer, texture, NULL, NULL);
+SDL_RenderPresent(renderer);
+
+Vantagens:
+-Muito simples
+-Bom para jogos 2D
+-Menos código
+-Multiplataforma
+
+Desvantagens:
+
+-Controle gráfico limitado
+
+-Não é ideal para 3D
+
+-Menos otimização que APIs gráficas diretas
+
+Ideal para:
+-jogos 2D
+-protótipos
+-jogos simples
+
+
+
+-->>>USAR SDL + OPENGL<<<--
+
+Aqui o SDL cria a janela e o contexto, e o OpenGL faz a renderização.
+
+SDL cuida de:
+-janela
+-input
+-eventos
+-contexto OpenGL
+
+OpenGL cuida de:
+-shaders
+-buffers
+-texturas
+-pipeline gráfico
+
+Fluxo típico:
+SDL → janela / input
+OpenGL → renderização
+
+Vantagens:
+-Muito mais controle
+-Permite 3D
+-Melhor performance
+-Pipeline gráfico completo
+
+Desvantagens:
+-Muito mais complexo
+-Precisa aprender OpenGL
