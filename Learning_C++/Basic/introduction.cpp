@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 typedef std::vector<int> IntVector; //typedef is used to create an alias for a type
 typedef std::string text_t;
@@ -60,5 +61,27 @@ int main() {
     std::string name;
     std::cout << "\nEnter your name: ";
     std::cin >> name; //taking input from user and storing it in variable name
+    //std::getline(std::cin, name); taking input from user and storing it in variable name, it will allow to take input with spaces
+    //std::getline(std::cin >> std::ws, name); taking input from user and storing it in variable name, 
+    //it will allow to take input with spaces and ignore leading whitespace
+
+
+    //MATH FUNCTIONS
+    //std::max(value1, value2) returns the maximum of two values
+    //std::min(value1, value2) returns the minimum of two values
+    //pow(base, exponent) returns the result of base raised to the power of exponent
+    //sqrt(value) returns the square root of a value
+    //abs(value) returns the absolute value of a number
+    //round(value) returns the nearest integer to a value
+    //ceil(value) returns the smallest integer that is greater than or equal to a value
+    //floor(value) returns the largest integer that is less than or equal to a value
+
+
+    //IF AND ELSE STATEMENTS
+    //SWITCHES
+    //I already know
+
+
+    //
     return 0;
 }
