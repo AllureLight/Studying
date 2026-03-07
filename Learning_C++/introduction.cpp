@@ -1,6 +1,7 @@
 #include <iostream>
-#include <vector>
-#include <cmath>
+#include <vector> //vector
+#include <cmath> //mathematical functions
+#include <ctime> //random numbers
 
 typedef std::vector<int> IntVector; //typedef is used to create an alias for a type
 typedef std::string text_t;
@@ -82,6 +83,65 @@ int main() {
     //I already know
 
 
-    //
+    //TERNARY OPERATOR
+    //ternary operator is a shorthand for if-else statement, 
+    //it takes three operands: a condition, a value to return 
+    //if the condition is true, and a value to return if the condition is false
+    int grade = 85;
+    grade >= 90 ? std::cout << "Pass" : std::cout << "Fail";
+    grade % 2 == 0 ? std ::cout << "\nGrade is even" : std::cout << "\nGrade is odd";
+    bool boolean = true;
+    std:: cout << (boolean ? "\nBoolean is true" : "\nBoolean is false");
+
+
+    //LOGICAL OPERATORS
+    //I already know
+
+
+    //USEFUL STRING METHODS
+    //length() returns the length of a string
+    //Empty() returns true if the string is empty, false otherwise
+    //Clear() clears the contents of a string
+    //Append() adds a string to the end of another string
+    //[string name].at(index) returns the character at the specified index
+    //[string name].insert(index, string) inserts a string at the specified index
+    //[string name].find(string) returns the index of the first occurrence of a string, or std::string::npos if not found
+    //[string name].erase(index, length) removes a portion of the string starting at the specified index and spanning the specified length
+
+
+    //WHILE AND DO-WHILE LOOPS
+    //I already know
+
+
+    //FOR LOOPS
+    //I already know
+
+
+    //BREAK AND CONTINUE STATEMENTS
+    //I already know
+    //break exit a loop | continue skips the interation
+
+
+    //RANDOM NUMBERS
+    //srand(time(NULL)) is used to seed the random number generator with the current time,
+    //rand() is used to generate a random number, it will return a number between 0 and RAND_MAX
+
+
+    //USER DEFINED FUNCTIONS
+    //I already know
+
+
+    //RETURN KEYWORD
+    //I already know
+
+
+    //OVERLOADING FUNCTIONS
+    //double mathematic(){} <- Function one
+    //double mathematic(int a){} <- Function two
+    //double mathematic(int a, int b){} <- Function three
+
+
+    //VARIABLE SCOPE
+    //I already know
     return 0;
 }
