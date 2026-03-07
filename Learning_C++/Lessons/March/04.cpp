@@ -1,9 +1,8 @@
-//Remove First and Last Character
 #include <string>
 
-using namespace std; 
+//Remove First and Last Character 
 
-string sliceString (string str )
+std::string sliceString (std::string str )
 {
   // your code is here ... Hope You Enjoy !!
   str.erase(0,1);

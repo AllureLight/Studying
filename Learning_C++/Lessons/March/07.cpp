@@ -8,16 +8,6 @@
 //If two words score the same, return the word that appears earliest in the original string.
 //All letters will be lowercase and all inputs will be valid.
 
-std::string highestScoringWord(const std::string &str);
-
-int main() {
-    std::string frase;
-    std::cout << "Digite uma frase: ";
-    std::getline(std::cin, frase);
-    std::cout << highestScoringWord(frase) << std::endl;
-    return 0;
-}
-
 std::string highestScoringWord(const std::string &str){
     int highestScore = 0;
     std::string highestScoringWord = "";
