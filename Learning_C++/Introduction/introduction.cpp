@@ -143,5 +143,8 @@ int main() {
 
     //VARIABLE SCOPE
     //I already know
+
+
+    
     return 0;
 }
