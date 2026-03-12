@@ -1,4 +1,4 @@
-package Java_Activities;
+package Learning_Java.Mini_Projects;
 
 import java.util.Scanner;
 
