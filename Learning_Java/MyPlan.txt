@@ -1,0 +1,27 @@
+👉 Foque em Java primeiro.
+Quando estiver confortável com:
+--Java avançado
+--Spring Boot
+--APIs REST
+--Banco de dados
+--Testes
+
+Aí sim você pode aprender Python como segunda linguagem.
+
+
+🧠 Uma estratégia muito usada por devs
+Especialidade principal:
+--Java backend
+--Linguagem auxiliar:
+--Python para scripts e automações
+--Isso é extremamente comum no mercado.
+
+
+📊 Exemplo real de stack forte
+Um backend dev internacional muitas vezes usa:
+--Java
+--Spring Boot
+--Docker
+--Kubernetes
+--PostgreSQL
+--Python (scripts)
